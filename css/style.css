@@ -21,9 +21,10 @@ body {
   background: #fff;
 }
 .wrapper header {
-  font-size: 28px;
-  font-weight: 400;
+  font-size: 26px;
+  font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
 }
 .wrapper form {
   margin: 40px 0 20px 0;
