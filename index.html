@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE NAME -->
+    <title>Currency Converter App in JS</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- font awesom cdn link for icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <head>
+        Currency Converter
+      </head>
+      <form action="">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1" />
+        </div>
+
+        <!-- dropList strat -->
+        <div class="drop-list">
+          <!-- from -->
+          <div class="from">
+            <p>from</p>
+            <div class="select-box">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="flag" />
+              <select name="" id=""></select>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+          <!-- to -->
+          <div class="to">
+            <p>to</p>
+            <div class="select-box">
+              <img src="https://flagsapi.com/PK/flat/64.png" alt="flag" />
+              <select name="" id=""></select>
+            </div>
+          </div>
+        </div>
+        <!-- dropList end -->
+        <div class="getexchange-rate">Getting exchange rate...</div>
+        <button>Get Exchange rate</button>
+      </form>
+    </div>
+
+    <script src="./script/codes.js"></script>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
